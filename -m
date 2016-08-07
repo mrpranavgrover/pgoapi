@@ -1,0 +1,166 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: speltech <pranav@Pranavs-iMac.attlocal.net>
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   data/items.json
+#	new file:   data/pokemon.json
+#	modified:   pokecli.py
+#	new file:   pokemongo_bot/__init__.py
+#	new file:   pokemongo_bot/cell_workers/__init__.py
+#	new file:   pokemongo_bot/cell_workers/evolve_all_worker.py
+#	new file:   pokemongo_bot/cell_workers/initial_transfer_worker.py
+#	new file:   pokemongo_bot/cell_workers/move_to_fort_worker.py
+#	new file:   pokemongo_bot/cell_workers/pokemon_catch_worker.py
+#	new file:   pokemongo_bot/cell_workers/seen_fort_worker.py
+#	new file:   pokemongo_bot/cell_workers/utils.py
+#	new file:   pokemongo_bot/human_behaviour.py
+#	new file:   pokemongo_bot/item_list.py
+#	new file:   pokemongo_bot/lcd.py
+#	new file:   pokemongo_bot/logger.py
+#	new file:   pokemongo_bot/polyline_stepper.py
+#	new file:   pokemongo_bot/polyline_walker/__init__.py
+#	new file:   pokemongo_bot/polyline_walker/polyline_tester.py
+#	new file:   pokemongo_bot/polyline_walker/polyline_walker.py
+#	new file:   pokemongo_bot/stepper.py
+#	new file:   proto/RpcEnum.proto
+#	new file:   proto/RpcEnvelope.proto
+#	new file:   proto/RpcSub.proto
+#	new file:   release_config.json
+#	modified:   requirements.txt
+#	new file:   src/pgoapi
+#	new file:   web/.gitignore
+#	new file:   web/PokemonGo-Bot-Desktop
+#	new file:   web/image/forts/Instinct.png
+#	new file:   web/image/forts/Mystic.png
+#	new file:   web/image/forts/TeamLess.png
+#	new file:   web/image/forts/Valor.png
+#	new file:   web/image/forts/hint_gym.png
+#	new file:   web/image/forts/img_pokestop.png
+#	new file:   web/image/forts/pokestop_near.png
+#	new file:   web/image/items/0.png
+#	new file:   web/image/items/1.png
+#	new file:   web/image/items/1001.png
+#	new file:   web/image/items/1002.png
+#	new file:   web/image/items/101.png
+#	new file:   web/image/items/102.png
+#	new file:   web/image/items/103.png
+#	new file:   web/image/items/104.png
+#	new file:   web/image/items/2.png
+#	new file:   web/image/items/201.png
+#	new file:   web/image/items/202.png
+#	new file:   web/image/items/3.png
+#	new file:   web/image/items/301.png
+#	new file:   web/image/items/4.png
+#	new file:   web/image/items/401.png
+#	new file:   web/image/items/402.png
+#	new file:   web/image/items/501.png
+#	new file:   web/image/items/701.png
+#	new file:   web/image/items/702.png
+#	new file:   web/image/items/703.png
+#	new file:   web/image/items/704.png
+#	new file:   web/image/items/705.png
+#	new file:   web/image/items/801.png
+#	new file:   web/image/items/901.png
+#	new file:   web/image/items/902.png
+#	new file:   web/image/items/Egg.png
+#	new file:   web/image/items/EggIncubator.png
+#	new file:   web/image/items/EggIncubatorUnlimited.png
+#	new file:   web/image/items/Item_COIN_01.png
+#	new file:   web/image/items/stardust_painted.png
+#	new file:   web/image/pokemon/001.gif
+#	new file:   web/image/pokemon/001.png
+#	new file:   web/image/pokemon/002.gif
+#	new file:   web/image/pokemon/002.png
+#	new file:   web/image/pokemon/003.gif
+#	new file:   web/image/pokemon/003.png
+#	new file:   web/image/pokemon/004.gif
+#	new file:   web/image/pokemon/004.png
+#	new file:   web/image/pokemon/005.gif
+#	new file:   web/image/pokemon/005.png
+#	new file:   web/image/pokemon/006.gif
+#	new file:   web/image/pokemon/006.png
+#	new file:   web/image/pokemon/007.gif
+#	new file:   web/image/pokemon/007.png
+#	new file:   web/image/pokemon/008.gif
+#	new file:   web/image/pokemon/008.png
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i or -o; assuming --only paths...
+#
+# Committer: Pranav Grover <pranav@Pranavs-iMac.attlocal.net>
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   config.json
+#	new file:   config.properties
+#	new file:   pgoapi/__init__.pyc
+#	new file:   pgoapi/auth.pyc
+#	new file:   pgoapi/auth_google.pyc
+#	new file:   pgoapi/auth_ptc.pyc
+#	new file:   pgoapi/exceptions.pyc
+#	new file:   pgoapi/pgoapi.pyc
+#	new file:   pgoapi/protobuf_to_dict.pyc
+#	new file:   pgoapi/protos/POGOProtos/Data/Battle_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Data/Capture_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Data/Gym_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Data/Logs_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Data/Player_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Data/__init__.pyc
+#	new file:   pgoapi/protos/POGOProtos/Data_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Enums_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Inventory/Item_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Inventory/__init__.pyc
+#	new file:   pgoapi/protos/POGOProtos/Inventory_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Map/Fort_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Map/Pokemon_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Map/__init__.pyc
+#	new file:   pgoapi/protos/POGOProtos/Map_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Networking/Envelopes_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Networking/Requests/Messages_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Networking/Requests/__init__.pyc
+#	new file:   pgoapi/protos/POGOProtos/Networking/Requests_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Networking/Responses_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Networking/__init__.pyc
+#	new file:   pgoapi/protos/POGOProtos/Settings/Master/Item_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Settings/Master/Pokemon_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Settings/Master/__init__.pyc
+#	new file:   pgoapi/protos/POGOProtos/Settings/Master_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/Settings/__init__.pyc
+#	new file:   pgoapi/protos/POGOProtos/Settings_pb2.pyc
+#	new file:   pgoapi/protos/POGOProtos/__init__.pyc
+#	new file:   pgoapi/protos/Signature_pb2.pyc
+#	new file:   pgoapi/protos/__init__.pyc
+#	new file:   pgoapi/rpc_api.pyc
+#	new file:   pgoapi/utilities.pyc
+#	new file:   pokemongo_bot/__init__.pyc
+#	new file:   pokemongo_bot/cell_workers/__init__.pyc
+#	new file:   pokemongo_bot/cell_workers/evolve_all_worker.pyc
+#	new file:   pokemongo_bot/cell_workers/initial_transfer_worker.pyc
+#	new file:   pokemongo_bot/cell_workers/move_to_fort_worker.pyc
+#	new file:   pokemongo_bot/cell_workers/pokemon_catch_worker.pyc
+#	new file:   pokemongo_bot/cell_workers/seen_fort_worker.pyc
+#	new file:   pokemongo_bot/cell_workers/utils.pyc
+#	new file:   pokemongo_bot/human_behaviour.pyc
+#	new file:   pokemongo_bot/item_list.pyc
+#	new file:   pokemongo_bot/lcd.pyc
+#	new file:   pokemongo_bot/logger.pyc
+#	new file:   pokemongo_bot/stepper.pyc
+#	new file:   src/pip-delete-this-directory.txt
+#
+# Changes not staged for commit:
+#	deleted:    .gitignore
+#
+# Untracked files:
+#	.DS_Store
+#	.gitignore110
+#
+
